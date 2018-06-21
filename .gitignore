@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Arduino 
+*.mk
+*.elf
+*.hex
+*.eep
