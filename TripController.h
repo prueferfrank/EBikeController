@@ -8,6 +8,10 @@
 #ifndef TRIPCONTROLLER_H_
 #define TRIPCONTROLLER_H_
 
+// evh_native.cpp
+#include <stdio.h>
+
+
 class TripController {
 
 private:
@@ -29,6 +33,9 @@ public:
 	void resetTrip();
 
 	bool isTripActive();
+
+	void onTripStart();
+	void onTripEnd();
 
 protected:
 };
