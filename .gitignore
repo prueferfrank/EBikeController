@@ -36,3 +36,6 @@
 *.elf
 *.hex
 *.eep
+
+/Release/*
+/Debug/*
